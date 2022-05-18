@@ -1,0 +1,51 @@
+ /* Colors */
+:root {
+    --colorWhite: hsl(0, 0%, 100%);
+    --colorLightGray: hsl(212, 45%, 89%);
+    --GrayishBlue: hsl(220, 15%, 55%);
+    --DarkBlue: hsl(218, 44%, 22%);
+}
+ 
+
+
+body {
+    background-color: var(--colorLightGray);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.card {
+    background-color: var(--colorWhite);
+    width: 360px;
+    height: 510px;
+    align-self: center;
+    border-radius: 20px;
+    
+}
+
+
+img {
+    border-radius: 20px;
+    width: 320px;
+    margin: 20px 20px 5px 20px;
+}
+
+h1 {
+font-size: 27px;
+padding: 0 25px;
+}
+
+p {
+    font-size: 15px;
+    padding: 0 25px;
+}
+
+footer {
+    margin-top: 100px;
+    
+}
