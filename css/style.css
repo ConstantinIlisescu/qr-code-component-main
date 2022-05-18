@@ -22,7 +22,7 @@ body {
 .card {
     background-color: var(--colorWhite);
     width: 360px;
-    height: 510px;
+    height: 560px;
     align-self: center;
     border-radius: 20px;
     
