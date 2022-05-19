@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
  /* Colors */
 :root {
     --colorWhite: hsl(0, 0%, 100%);
@@ -9,6 +11,7 @@
 
 
 body {
+    font-family:'Outfit', sans-serif;
     background-color: var(--colorLightGray);
     width: 100vw;
     height: 100vh;
@@ -22,9 +25,10 @@ body {
 .card {
     background-color: var(--colorWhite);
     width: 360px;
-    height: 560px;
+    height: fit-content;
     align-self: center;
     border-radius: 20px;
+    padding-bottom: 25px;
     
 }
 
@@ -38,14 +42,20 @@ img {
 h1 {
 font-size: 27px;
 padding: 0 25px;
+color: var(--DarkBlue);
 }
 
 p {
     font-size: 15px;
     padding: 0 25px;
+    color: var(--GrayishBlue);
+}
+
+a {
+    text-decoration: none;
+    color: var(--DarkBlue);
 }
 
 footer {
     margin-top: 100px;
-    
 }
